@@ -3,7 +3,9 @@
 1. Create a [GitHub App](https://developer.github.com/apps/)
   - Fill out all of the required fields
   - In the `Webhook URL`, put in a dummy URL for now
-2. Download the PEM and place it into this folder
+2. `git clone https://github.com/ghapplets/ibm-cloud-functions`
+3. `cd github-comment`
+2. Download the PEM file and place it into this folder
 3. Replace the `pem` in `comment.js` with the name of your PEM read
 4. Replace the `appId` in `comment.js` with the ID from your GitHub App
 5. Run `npm install`
