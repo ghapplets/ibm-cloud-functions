@@ -14,3 +14,4 @@
   - `ibmcloud fn action create comment github-comment.zip --kind nodejs:8 --web true`
 8. Grap the Endpoint from your `comment` function in IBM Cloud
   - In the `Webhook URL` for your GitHub App, replace that with the Endpoint from your IBM Cloud Function
+9. Install the GitHub App into a repository
